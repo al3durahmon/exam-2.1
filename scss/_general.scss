@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  transition: all 0.7s;
+}
+body{
+  padding: 0;
+  margin: 0;
+  background: #eff3f8;
+  background-image:url(".././img/bg-color-simples.png");
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position-x: 1120px;
+  background-position-y: 1660px;
+}
+img{
+  display: block;
+}
+@media only screen and (max-width:768px){
+  body{
+
+    background-image:url("../img/bg-color-tablet.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-position-x: 0;
+    background-position-y: 0;
+  }
+}
+@media only screen and (max-width:376px){
+  body{
+    background-image:url("../img/bg-color-mobile.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-position-x: 0;
+    background-position-y: 0;
+  }
+}

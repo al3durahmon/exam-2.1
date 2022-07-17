@@ -1,0 +1,55 @@
+.start-section{
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
+.start__inner{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.start__content-title{
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536b;
+}
+.start__button{
+  border:none;
+  cursor: pointer;
+  position: absolute;
+  top: 0.3px;
+  left: 330.7px;
+}
+@media only screen and (max-width:768px){
+  .start__inner{
+    flex-direction: column;
+  }
+  .start__content-title{
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width:376px)
+{
+  .start__content-title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.246154px;
+  }
+  .hero__input{
+    text-align: center;
+    padding-right: 140px;
+    margin: auto;
+  }
+  .start__button{
+    top: 76px;
+    left: 0;
+    padding-left: 123px;
+    padding-right: 123px;
+    margin:auto;
+  }
+}

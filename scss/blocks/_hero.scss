@@ -1,0 +1,142 @@
+
+.hero__inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.width__box{
+  width: 546px;
+  margin-bottom: 42px;
+}
+.hero__title{
+  font-family: 'DM Serif Display' 'Arial' serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -0.553846px;
+  color: #36536b;
+}
+.hero__form{
+  position: relative;
+  margin-bottom: 16px;
+}
+.hero__input{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 27px;
+  padding-right: 276px;
+  background: #fbfcfe;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border:transparent;
+  border-radius: 24px;  
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #36536b;
+  cursor: pointer;
+  outline: none;
+}
+.hero__input::placeholder{
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.hero__button{
+  position: absolute;
+  top: 0.3px;
+  left: 333.5px;
+  border:transparent;
+  cursor: pointer;
+}
+.hero__text{
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6C8294;
+  padding-left: 27px;
+}
+.hero__picture{
+  display: block;
+  width: 263px;
+  height: 500px;
+  margin-right: 97px;
+}
+.hero__text--link{
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color:#36536b;
+  opacity: 0.7;
+}
+
+@media only screen and (max-width:768px){
+  .hero__title{
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -0.369231px;
+  color: #36536B;
+  }
+  .hero__picture{
+    margin: auto;
+    padding-bottom: 48px;
+  }
+  .hero__inner{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero__form{
+    text-align: center;
+  }
+  .hero__button{
+    margin-left: 24px;
+  }
+  .hero__text{
+    text-align: center;
+  }
+}
+@media only screen and (max-width:376px){
+  .hero__picture{
+    width: 127px;
+    height: 280px;
+  }
+  .hero__title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.246154px; 
+    width: 327px;
+    text-align: center;
+    margin: auto;
+  }
+  .hero__input{
+    text-align: center;
+    padding-right: 150px;
+    margin: auto;
+  }
+  .hero__button{
+    top: 76px;
+    left: 90px;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin:auto;
+  }
+  .hero__text{
+    margin-top: 88px;
+  }
+}
